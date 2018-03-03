@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:gsa
+LIBS:gsa-d1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -32,7 +33,7 @@ $EndComp
 Text Notes 2200 3500 0    60   ~ 0
 AC
 Text Notes 4600 3750 0    60   ~ 0
-15V
+±15V
 $Comp
 L XFRMR-C TX1
 U 1 1 5A85D3B4

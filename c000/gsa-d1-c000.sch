@@ -1,16 +1,17 @@
 EESchema Schematic File Version 2
 LIBS:gsa
+LIBS:gsa-d1-c000-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 1 1
 Title "Diamond-1"
 Date "January 2018"
-Rev "2.0.0"
+Rev "2.0.1"
 Comp "Gemstone Amplification"
 Comment1 "© Tim Baldwin 2016,2018"
-Comment2 "GSA-D1-C200"
+Comment2 "GSA-D1-C201"
 Comment3 "Pre-Amp Controls and Input Switching"
 Comment4 "Stereo Amplifier"
 $EndDescr
@@ -55,24 +56,24 @@ Text Notes 5450 1900 0    60   ~ 0
 D
 $Comp
 L POT-D VR302
-U 2 1 5A85ECFC
+U 1 1 5A85ECFC
 P 7950 2050
 F 0 "VR302" H 7700 2100 60  0000 C CNN
 F 1 "100k" H 7750 2000 60  0000 C CNN
 F 2 "gsa:POT-DUAL" H 7950 2050 60  0001 C CNN
 F 3 "" H 7950 2050 60  0000 C CNN
-	2    7950 2050
+	1    7950 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L POT-D VR302
-U 1 1 5A85ECFD
+U 2 1 5A85ECFD
 P 7950 3350
 F 0 "VR302" H 7700 3400 60  0000 C CNN
 F 1 "100k" H 7750 3300 60  0000 C CNN
 F 2 "gsa:POT-DUAL" H 7950 3350 60  0001 C CNN
 F 3 "" H 7950 3350 60  0000 C CNN
-	1    7950 3350
+	2    7950 3350
 	1    0    0    1   
 $EndComp
 Text Notes 7800 3850 0    60   ~ 0

@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:gsa
+LIBS:gsa-d1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -413,4 +414,6 @@ Text HLabel 3550 2400 0    60   Input ~ 0
 AC1
 Text HLabel 3550 3500 0    60   Input ~ 0
 AC2
+Text Notes 4300 3700 0    60   ~ 0
+Use either a bridge rectifier\nor 4 separate rectifier diodes.
 $EndSCHEMATC
