@@ -1,11 +1,11 @@
 EESchema Schematic File Version 2
 LIBS:gsa
-LIBS:gsa-d1-c000-cache
+LIBS:gsa-d1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 3 5
 Title "Diamond-1"
 Date "January 2018"
 Rev "2.0.1"

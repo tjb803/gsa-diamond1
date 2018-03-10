@@ -3,7 +3,7 @@
   (general
     (links 61)
     (no_connects 0)
-    (area 93.904999 81.006999 193.750001 115.61125)
+    (area 93.904999 81.204999 193.750001 114.375001)
     (thickness 1.6)
     (drawings 18)
     (tracks 136)
@@ -372,10 +372,10 @@
     )
   )
 
-  (module gsa:ELEC4R (layer F.Cu) (tedit 5A9076D0) (tstamp 5A7DE8B5)
+  (module gsa:ELEC4R (layer F.Cu) (tedit 5A9C575C) (tstamp 5A7DE8B5)
     (at 156.845 85.725 180)
     (path /5A85F277)
-    (fp_text reference C413 (at 4.445 0 360) (layer F.SilkS)
+    (fp_text reference C413 (at -3.81 -0.635 360) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_text value 47u (at 0 3.048 180) (layer F.SilkS) hide

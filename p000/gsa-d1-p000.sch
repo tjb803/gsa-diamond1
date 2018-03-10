@@ -491,8 +491,8 @@ Text Notes 3950 6700 0    60   ~ 12
 LM4766
 Text Notes 4050 6800 0    60   ~ 0
 Mute: install R414/C414
-Text Notes 2350 7500 0    60   ~ 0
-if not required\nomit R413 and \nreplace C413 with link
+Text Notes 2350 7450 0    60   ~ 0
+if not required omit R413\nreplace C413 with link
 Text Label 8450 3000 0    60   ~ 0
 MT
 Text Label 7350 3000 0    60   ~ 0
@@ -519,9 +519,9 @@ F 3 "" H 1150 2900 60  0000 C CNN
 	1    1150 2900
 	-1   0    0    -1  
 $EndComp
-Text Notes 1750 850  0    60   ~ 0
+Text Notes 1600 850  0    60   ~ 0
 +20V
-Text Notes 1800 5950 0    60   ~ 0
+Text Notes 1600 5950 0    60   ~ 0
 -20V
 Text Notes 2300 6900 0    60   ~ 0
 Mute: omit R414/C414\nreplace C414 with link
@@ -566,7 +566,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 3900 8550 3600
 Wire Wire Line
-	5100 3750 5100 4150
+	5100 3650 5100 4150
 Wire Wire Line
 	5200 3900 5100 3900
 Connection ~ 5100 3900
@@ -576,7 +576,7 @@ Wire Wire Line
 	5200 2800 4750 2800
 Connection ~ 4750 2800
 Wire Wire Line
-	4750 2650 4750 4150
+	4750 2550 4750 4150
 Wire Wire Line
 	4750 4550 4750 4650
 Wire Wire Line
@@ -740,11 +740,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 2350 7450 2350
 Wire Wire Line
-	4750 2650 7450 2650
-Wire Wire Line
 	5600 3450 7450 3450
-Wire Wire Line
-	5100 3750 7450 3750
 Wire Wire Line
 	5600 2800 8550 2800
 Wire Wire Line
@@ -820,4 +816,16 @@ Wire Notes Line
 	2600 4100 1850 4100
 Text Notes 2050 4050 0    60   ~ 0
 Optional
+Wire Wire Line
+	4750 2550 7350 2550
+Wire Wire Line
+	7350 2550 7350 2650
+Wire Wire Line
+	7350 2650 7450 2650
+Wire Wire Line
+	5100 3650 7350 3650
+Wire Wire Line
+	7350 3650 7350 3750
+Wire Wire Line
+	7350 3750 7450 3750
 $EndSCHEMATC

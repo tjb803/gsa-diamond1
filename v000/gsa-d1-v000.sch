@@ -8,10 +8,10 @@ encoding utf-8
 Sheet 5 5
 Title "Diamond-1"
 Date "January 2018"
-Rev "2.0.0"
+Rev "2.0.1"
 Comp "Gemstone Amplification"
 Comment1 "© Tim Baldwin 2016,2018"
-Comment2 "GSA-D1-V200"
+Comment2 "GSA-D1-V201"
 Comment3 "Power Supply"
 Comment4 "Stereo Amplifier"
 $EndDescr
@@ -27,10 +27,10 @@ F 3 "" H 6100 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND014
+L GND #GND01
 U 1 1 5A85E2DE
 P 5650 4200
-F 0 "#GND014" H 5790 4120 60  0001 C CNN
+F 0 "#GND01" H 5790 4120 60  0001 C CNN
 F 1 "GND" H 5650 3900 60  0000 C CNN
 F 2 "" H 5650 4000 60  0000 C CNN
 F 3 "" H 5650 4000 60  0000 C CNN
@@ -82,10 +82,10 @@ F 3 "" H 7650 2900 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN-3 J508
+L CONN-3 J507
 U 1 1 5A85E2E6
 P 7650 5100
-F 0 "J508" H 7950 5100 60  0000 C CNN
+F 0 "J507" H 7950 5100 60  0000 C CNN
 F 1 "CONN-3" H 7650 4825 60  0001 C CNN
 F 2 "gsa:MOLEX3" H 7650 5100 60  0001 C CNN
 F 3 "" H 7650 5100 60  0000 C CNN
@@ -100,7 +100,7 @@ Text Notes 8550 5200 0    60   ~ 0
 Power for \nSwitching Logic
 Text Notes 8200 5250 0    60   ~ 0
 V+\nGND\nV-
-Text Notes 8200 3400 0    60   ~ 0
+Text Notes 8200 3450 0    60   ~ 0
 GND\nGND
 Text Notes 8600 4100 0    60   ~ 0
 Ground\nReturns
@@ -285,80 +285,10 @@ F 3 "" V 5260 3320 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	4950 2400 4950 2600
-$Comp
-L CONN-2 J503
-U 1 1 5A85E2F1
-P 7650 3250
-F 0 "J503" H 7950 3300 60  0000 C CNN
-F 1 "CONN-2" H 7650 3075 60  0001 C CNN
-F 2 "gsa:SCREW2" H 7650 3250 60  0001 C CNN
-F 3 "" H 7650 3250 60  0000 C CNN
-	1    7650 3250
-	1    0    0    1   
-$EndComp
-$Comp
-L CONN-2 J504
-U 1 1 5A85E2F2
-P 7650 3600
-F 0 "J504" H 7950 3650 60  0000 C CNN
-F 1 "CONN-2" H 7650 3425 60  0001 C CNN
-F 2 "gsa:SCREW2" H 7650 3600 60  0001 C CNN
-F 3 "" H 7650 3600 60  0000 C CNN
-	1    7650 3600
-	1    0    0    1   
-$EndComp
-$Comp
-L CONN-2 J505
-U 1 1 5A85E2F3
-P 7650 3950
-F 0 "J505" H 7950 4000 60  0000 C CNN
-F 1 "CONN-2" H 7650 3775 60  0001 C CNN
-F 2 "gsa:SCREW2" H 7650 3950 60  0001 C CNN
-F 3 "" H 7650 3950 60  0000 C CNN
-	1    7650 3950
-	1    0    0    1   
-$EndComp
-$Comp
-L CONN-2 J506
-U 1 1 5A85E2F4
-P 7650 4300
-F 0 "J506" H 7950 4350 60  0000 C CNN
-F 1 "CONN-2" H 7650 4125 60  0001 C CNN
-F 2 "gsa:SCREW2" H 7650 4300 60  0001 C CNN
-F 3 "" H 7650 4300 60  0000 C CNN
-	1    7650 4300
-	1    0    0    1   
-$EndComp
-Text Notes 8200 3750 0    60   ~ 0
-GND\nGND
-Text Notes 8200 4100 0    60   ~ 0
-GND\nGND
-Text Notes 8200 4450 0    60   ~ 0
-GND\nGND
-Wire Wire Line
-	7450 3250 7350 3250
-Connection ~ 7350 3250
-Wire Wire Line
-	7450 3350 7350 3350
-Connection ~ 7350 3350
-Wire Wire Line
-	7450 3600 7350 3600
-Connection ~ 7350 3600
-Wire Wire Line
-	7450 3700 7350 3700
-Connection ~ 7350 3700
-Wire Wire Line
-	7450 3950 7350 3950
-Connection ~ 7350 3950
-Wire Wire Line
-	7450 4050 7350 4050
-Connection ~ 7350 4050
-Wire Wire Line
-	7450 4300 7350 4300
-Connection ~ 7350 4300
-Wire Wire Line
-	7450 4400 7350 4400
-Connection ~ 7350 4400
+Text Notes 8200 3900 0    60   ~ 0
+GND\nGND\nGND
+Text Notes 8200 4400 0    60   ~ 0
+GND\nGND\nGND
 Text Label 7000 2950 0    60   ~ 0
 V+
 Text Label 6950 5050 0    60   ~ 0
@@ -383,24 +313,7 @@ Wire Wire Line
 	3550 3000 3450 3000
 Wire Wire Line
 	3750 2950 3550 2950
-$Comp
-L CONN-2 J507
-U 1 1 5A85E2F6
-P 7650 4650
-F 0 "J507" H 7950 4700 60  0000 C CNN
-F 1 "CONN-2" H 7650 4475 60  0001 C CNN
-F 2 "gsa:SCREW2" H 7650 4650 60  0001 C CNN
-F 3 "" H 7650 4650 60  0000 C CNN
-	1    7650 4650
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	7450 4650 7350 4650
-Connection ~ 7350 4650
-Wire Wire Line
-	7450 4750 7350 4750
-Connection ~ 7350 4750
-Text Notes 8200 4800 0    60   ~ 0
+Text Notes 8200 4750 0    60   ~ 0
 GND\nGND
 Wire Wire Line
 	7150 5200 7450 5200
@@ -416,4 +329,78 @@ Text HLabel 3550 3500 0    60   Input ~ 0
 AC2
 Text Notes 4300 3700 0    60   ~ 0
 Use either a bridge rectifier\nor 4 separate rectifier diodes.
+$Comp
+L CONN-3 J504
+U 1 1 5AA41281
+P 7650 3750
+F 0 "J504" H 7950 3750 60  0000 C CNN
+F 1 "CONN-3" H 7650 3475 60  0001 C CNN
+F 2 "gsa:SCREW3" H 7650 3750 60  0001 C CNN
+F 3 "" H 7650 3750 60  0000 C CNN
+	1    7650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN-3 J505
+U 1 1 5AA412F1
+P 7650 4250
+F 0 "J505" H 7950 4250 60  0000 C CNN
+F 1 "CONN-3" H 7650 3975 60  0001 C CNN
+F 2 "gsa:SCREW3" H 7650 4250 60  0001 C CNN
+F 3 "" H 7650 4250 60  0000 C CNN
+	1    7650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN-2 J503
+U 1 1 5AA413BE
+P 7650 3400
+F 0 "J503" H 7950 3450 60  0000 C CNN
+F 1 "CONN-2" H 7650 3225 60  0001 C CNN
+F 2 "gsa:SCREW2" H 7650 3400 60  0001 C CNN
+F 3 "" H 7650 3400 60  0000 C CNN
+	1    7650 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN-2 J506
+U 1 1 5AA41458
+P 7650 4700
+F 0 "J506" H 7950 4750 60  0000 C CNN
+F 1 "CONN-2" H 7650 4525 60  0001 C CNN
+F 2 "gsa:SCREW2" H 7650 4700 60  0001 C CNN
+F 3 "" H 7650 4700 60  0000 C CNN
+	1    7650 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 3300 7450 3300
+Connection ~ 7350 3300
+Wire Wire Line
+	7450 3400 7350 3400
+Connection ~ 7350 3400
+Wire Wire Line
+	7450 3650 7350 3650
+Connection ~ 7350 3650
+Wire Wire Line
+	7450 3750 7350 3750
+Connection ~ 7350 3750
+Wire Wire Line
+	7450 3850 7350 3850
+Connection ~ 7350 3850
+Wire Wire Line
+	7450 4150 7350 4150
+Connection ~ 7350 4150
+Wire Wire Line
+	7450 4250 7350 4250
+Connection ~ 7350 4250
+Wire Wire Line
+	7450 4350 7350 4350
+Connection ~ 7350 4350
+Wire Wire Line
+	7450 4600 7350 4600
+Connection ~ 7350 4600
+Wire Wire Line
+	7450 4700 7350 4700
+Connection ~ 7350 4700
 $EndSCHEMATC

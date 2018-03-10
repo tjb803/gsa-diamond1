@@ -652,6 +652,6 @@ F 3 "" H 2600 2250 50  0000 C CNN
 	1    2600 2250
 	1    0    0    -1  
 $EndComp
-Text Notes 2850 6050 0    60   ~ 0
-U201: CD4093BE (Quad Schmitt Trigger NAND)\nU202: CD4017BE (Decade Counter)\nQ20x: 2N7000 or BS170 (Low Power Switching MOSFET)\nD20x: LEDs (approx 2V 20mA) 
+Text Notes 2950 6100 0    60   ~ 0
+U201: CD4093BE (Quad Schmitt trigger NAND)\nU202: CD4017BE (Decade counter)\nQ20x: 2N7000 or BS170 (Low power switching MOSFET)\nD20x: LEDs (Approx 2V 20mA) \nR204: Adjust for supply voltage and LED current
 $EndSCHEMATC
