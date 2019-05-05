@@ -1,22 +1,22 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:gsa
 LIBS:gsa-d1-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "Diamond-1"
-Date "January 2018"
+Date "May 2019"
 Rev "2.0.1"
 Comp "Gemstone Amplification"
-Comment1 "© Tim Baldwin 2016,2018"
+Comment1 "© Tim Baldwin 2016,2019"
 Comment2 "GSA-D1-C201"
 Comment3 "Pre-Amp Controls and Input Switching"
 Comment4 "Stereo Amplifier"
 $EndDescr
 $Comp
-L 4066 U301
+L gsa:4066 U301
 U 1 1 5A85ECF9
 P 3250 2200
 F 0 "U301" H 3250 2550 60  0000 C CNN
@@ -27,7 +27,7 @@ F 3 "" H 3350 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP C301
+L gsa:CAP C301
 U 1 1 5A85ECFA
 P 2600 2700
 F 0 "C301" H 2750 2800 60  0000 C CNN
@@ -38,7 +38,7 @@ F 3 "" H 2600 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4066 U302
+L gsa:4066 U302
 U 1 1 5A85ECFB
 P 3250 3200
 F 0 "U302" H 3250 3550 60  0000 C CNN
@@ -55,7 +55,7 @@ C
 Text Notes 5450 1900 0    60   ~ 0
 D
 $Comp
-L POT-D VR302
+L gsa:POT-D VR302
 U 1 1 5A85ECFC
 P 7950 2050
 F 0 "VR302" H 7700 2100 60  0000 C CNN
@@ -66,7 +66,7 @@ F 3 "" H 7950 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT-D VR302
+L gsa:POT-D VR302
 U 2 1 5A85ECFD
 P 7950 3350
 F 0 "VR302" H 7700 3400 60  0000 C CNN
@@ -81,7 +81,7 @@ Volume\n(Lin)
 Text Notes 8400 3600 0    60   ~ 0
 Balance\n(Lin)
 $Comp
-L CONN-2 J307
+L gsa:CONN-2 J307
 U 1 1 5A85ECFF
 P 5400 6000
 F 0 "J307" H 5700 6050 60  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 5400 6000 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L HOLE H301
+L gsa:HOLE H301
 U 1 1 5A85ED00
 P 1450 4550
 F 0 "H301" H 1450 4700 60  0001 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 1450 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HOLE H302
+L gsa:HOLE H302
 U 1 1 5A85ED01
 P 1950 4550
 F 0 "H302" H 1950 4700 60  0001 C CNN
@@ -118,7 +118,7 @@ L
 Text Label 3950 3650 0    60   ~ 0
 R
 $Comp
-L CONN-3 J302
+L gsa:CONN-3 J302
 U 1 1 5A85ED02
 P 2050 6050
 F 0 "J302" H 2050 5750 60  0000 C CNN
@@ -145,7 +145,7 @@ V+
 Text Label 2400 3750 0    60   ~ 0
 V-
 $Comp
-L LM78XX U304
+L gsa:LM78XX U304
 U 1 1 5A85ED03
 P 3650 5400
 F 0 "U304" H 3650 5450 60  0000 C CNN
@@ -156,7 +156,7 @@ F 3 "" H 3650 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM79XX U303
+L gsa:LM79XX U303
 U 1 1 5A85ED04
 P 3650 6700
 F 0 "U303" H 3650 6750 60  0000 C CNN
@@ -167,7 +167,7 @@ F 3 "" H 3650 6700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP-P C302
+L gsa:CAP-P C302
 U 1 1 5A85ED05
 P 3150 5750
 F 0 "C302" H 3300 5850 60  0000 C CNN
@@ -178,7 +178,7 @@ F 3 "" H 3150 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP-P C303
+L gsa:CAP-P C303
 U 1 1 5A85ED06
 P 3150 6350
 F 0 "C303" H 3300 6450 60  0000 C CNN
@@ -189,7 +189,7 @@ F 3 "" H 3150 6350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP C304
+L gsa:CAP C304
 U 1 1 5A85ED07
 P 4150 5750
 F 0 "C304" H 4300 5850 60  0000 C CNN
@@ -200,7 +200,7 @@ F 3 "" H 4150 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP C305
+L gsa:CAP C305
 U 1 1 5A85ED08
 P 4150 6350
 F 0 "C305" H 4300 6450 60  0000 C CNN
@@ -211,7 +211,7 @@ F 3 "" H 4150 6350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D301
+L gsa:DIODE D301
 U 1 1 5A85ED09
 P 4550 5750
 F 0 "D301" V 4700 5600 60  0000 C CNN
@@ -222,7 +222,7 @@ F 3 "" H 4550 5750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DIODE D302
+L gsa:DIODE D302
 U 1 1 5A85ED0A
 P 4550 6350
 F 0 "D302" V 4700 6200 60  0000 C CNN
@@ -233,7 +233,7 @@ F 3 "" H 4550 6350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN-4 J301
+L gsa:CONN-4 J301
 U 1 1 5A85ED0B
 P 1500 2650
 F 0 "J301" H 1500 2950 60  0000 C CNN
@@ -286,7 +286,7 @@ Vin+
 Text Label 2500 6700 0    60   ~ 0
 Vin-
 $Comp
-L LINK X301
+L gsa:LINK X301
 U 1 1 5A85ED0C
 P 3950 2550
 F 0 "X301" V 3850 2550 60  0000 C CNN
@@ -297,7 +297,7 @@ F 3 "" H 3950 2550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LINK X302
+L gsa:LINK X302
 U 1 1 5A85ED0D
 P 3950 2750
 F 0 "X302" V 3850 2750 60  0000 C CNN
@@ -322,7 +322,7 @@ L\nGND\nR
 Wire Wire Line
 	3500 2000 3750 2000
 Wire Wire Line
-	3750 1750 3750 3150
+	3750 1750 3750 2000
 Wire Wire Line
 	3750 2150 3500 2150
 Wire Wire Line
@@ -334,7 +334,7 @@ Connection ~ 3750 3000
 Wire Wire Line
 	3600 2450 3500 2450
 Wire Wire Line
-	3600 2300 3600 3650
+	3600 2300 3600 2450
 Connection ~ 3600 2450
 Wire Wire Line
 	3600 3300 3500 3300
@@ -344,13 +344,13 @@ Connection ~ 3600 3300
 Wire Wire Line
 	4150 1750 5050 1750
 Wire Wire Line
-	4150 1750 4150 2550
+	4150 1750 4150 2100
 Wire Wire Line
 	4150 2100 3500 2100
 Wire Wire Line
 	4550 2250 4550 2050
 Wire Wire Line
-	3500 2250 4550 2250
+	3500 2250 4250 2250
 Wire Wire Line
 	4150 2850 5050 2850
 Wire Wire Line
@@ -368,7 +368,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 2550 2250 2150
 Wire Wire Line
-	2250 2150 3000 2150
+	2250 2150 2900 2150
 Wire Wire Line
 	3000 2250 2900 2250
 Wire Wire Line
@@ -379,7 +379,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2650 2350 2300
 Wire Wire Line
-	2350 2300 3000 2300
+	2350 2300 2800 2300
 Wire Wire Line
 	2800 2100 2800 2300
 Connection ~ 2800 2300
@@ -388,7 +388,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2750 2350 3150
 Wire Wire Line
-	2350 3150 3000 3150
+	2350 3150 2900 3150
 Wire Wire Line
 	3000 3250 2900 3250
 Wire Wire Line
@@ -399,16 +399,16 @@ Wire Wire Line
 Wire Wire Line
 	2250 2850 2250 3300
 Wire Wire Line
-	2250 3300 3000 3300
+	2250 3300 2800 3300
 Wire Wire Line
 	3000 3100 2800 3100
 Wire Wire Line
 	2800 3100 2800 3300
 Connection ~ 2800 3300
 Wire Wire Line
-	2400 5400 3300 5400
+	2400 5400 3150 5400
 Wire Wire Line
-	2400 6700 3300 6700
+	2400 6700 3150 6700
 Wire Wire Line
 	5100 5400 5100 6000
 Wire Wire Line
@@ -426,21 +426,21 @@ Wire Wire Line
 Wire Wire Line
 	2400 6150 2400 6700
 Wire Wire Line
-	2600 1650 2600 2550
+	2600 1650 2600 2450
 Wire Wire Line
-	2250 6050 4550 6050
+	2250 6050 3150 6050
 Wire Wire Line
-	3650 5650 3650 6450
+	3650 5650 3650 6050
 Connection ~ 3650 6050
 Wire Wire Line
-	4000 5400 5300 5400
+	4000 5400 4150 5400
 Wire Wire Line
-	4000 6700 5300 6700
+	4000 6700 4150 6700
 Wire Wire Line
 	3150 5600 3150 5400
 Connection ~ 3150 5400
 Wire Wire Line
-	3150 5900 3150 6200
+	3150 5900 3150 6050
 Connection ~ 3150 6050
 Wire Wire Line
 	3150 6500 3150 6700
@@ -452,10 +452,10 @@ Wire Wire Line
 	4150 5400 4150 5600
 Connection ~ 4150 5400
 Wire Wire Line
-	4150 5900 4150 6200
+	4150 5900 4150 6050
 Connection ~ 4150 6050
 Wire Wire Line
-	4550 5900 4550 6150
+	4550 5900 4550 6050
 Connection ~ 4550 6050
 Wire Wire Line
 	4550 5550 4550 5400
@@ -468,15 +468,13 @@ Wire Notes Line
 Connection ~ 5100 5400
 Connection ~ 5100 6700
 Wire Wire Line
-	3100 1850 3100 1850
-Wire Wire Line
-	2400 1650 3100 1650
+	2400 1650 2600 1650
 Wire Wire Line
 	3100 3750 3100 3550
 Wire Wire Line
-	2600 2850 2600 3750
+	2600 2850 2600 2950
 Wire Wire Line
-	2400 3750 3100 3750
+	2400 3750 2600 3750
 Connection ~ 2600 1650
 Connection ~ 2600 3750
 Wire Wire Line
@@ -523,7 +521,7 @@ Wire Wire Line
 	4250 2750 4250 2250
 Connection ~ 4250 2250
 $Comp
-L CONN-3 J308
+L gsa:CONN-3 J308
 U 1 1 5A85ED0E
 P 9700 2700
 F 0 "J308" H 9700 2950 60  0000 C CNN
@@ -554,7 +552,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 2500 5050 2500
 $Comp
-L CONN-3 J306
+L gsa:CONN-3 J306
 U 1 1 5A85ED0F
 P 5250 1850
 F 0 "J306" H 5250 2100 60  0000 C CNN
@@ -565,7 +563,7 @@ F 3 "" H 5250 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN-3 J305
+L gsa:CONN-3 J305
 U 1 1 5A85ED10
 P 5250 2400
 F 0 "J305" H 5250 2650 60  0000 C CNN
@@ -576,7 +574,7 @@ F 3 "" H 5250 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN-3 J304
+L gsa:CONN-3 J304
 U 1 1 5A85ED11
 P 5250 2950
 F 0 "J304" H 5250 3200 60  0000 C CNN
@@ -587,7 +585,7 @@ F 3 "" H 5250 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN-3 J303
+L gsa:CONN-3 J303
 U 1 1 5A85ED12
 P 5250 3500
 F 0 "J303" H 5250 3750 60  0000 C CNN
@@ -600,7 +598,7 @@ $EndComp
 Wire Wire Line
 	5050 1850 5000 1850
 Wire Wire Line
-	5000 1850 5000 3850
+	5000 1850 5000 2400
 Wire Wire Line
 	5000 2400 5050 2400
 Wire Wire Line
@@ -625,7 +623,7 @@ L
 Wire Wire Line
 	7350 1800 7950 1800
 $Comp
-L POT VR301
+L gsa:POT VR301
 U 1 1 5A85ECFE
 P 8550 2700
 F 0 "VR301" H 8350 2750 60  0000 C CNN
@@ -640,7 +638,7 @@ U301, U302: CD4066BE (Quad Bilateral Switch)
 Text Notes 7600 4350 0    60   ~ 0
 If Balance is omitted R301 and R302 are\nrequired, should be 10k-15k and \nshould be connected to GND-S.
 $Comp
-L RES R301
+L gsa:RES R301
 U 1 1 5A8B4D38
 P 8550 2300
 F 0 "R301" H 8350 2250 60  0000 C CNN
@@ -651,7 +649,7 @@ F 3 "" H 8550 2300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L RES R302
+L gsa:RES R302
 U 1 1 5A8B4FE5
 P 8550 3100
 F 0 "R302" H 8350 3050 60  0000 C CNN
@@ -662,7 +660,7 @@ F 3 "" H 8550 3100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7950 2250 7950 3150
+	7950 2250 7950 2700
 Wire Wire Line
 	7950 1800 7950 1850
 Wire Wire Line
@@ -673,7 +671,7 @@ Wire Wire Line
 	7950 2700 7350 2700
 Connection ~ 7950 2700
 Wire Wire Line
-	8150 3350 9350 3350
+	8150 3350 8550 3350
 Wire Wire Line
 	9350 3350 9350 2800
 Wire Wire Line
@@ -683,7 +681,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 2050 9350 2600
 Wire Wire Line
-	8150 2050 9350 2050
+	8150 2050 8550 2050
 Wire Wire Line
 	8750 2700 9500 2700
 Wire Wire Line
@@ -711,4 +709,82 @@ Wire Wire Line
 	4750 2050 4750 1950
 Wire Wire Line
 	4750 1950 5050 1950
+Wire Wire Line
+	3750 2150 3750 2550
+Wire Wire Line
+	3750 3000 3750 3150
+Wire Wire Line
+	3600 2450 3600 2750
+Wire Wire Line
+	3600 3300 3600 3450
+Wire Wire Line
+	2900 2150 3000 2150
+Wire Wire Line
+	2800 2300 3000 2300
+Wire Wire Line
+	2900 3150 3000 3150
+Wire Wire Line
+	2800 3300 3000 3300
+Wire Wire Line
+	3650 6050 4150 6050
+Wire Wire Line
+	3650 6050 3650 6450
+Wire Wire Line
+	3150 5400 3300 5400
+Wire Wire Line
+	3150 6050 3650 6050
+Wire Wire Line
+	3150 6050 3150 6200
+Wire Wire Line
+	3150 6700 3300 6700
+Wire Wire Line
+	4150 6700 4550 6700
+Wire Wire Line
+	4150 5400 4550 5400
+Wire Wire Line
+	4150 6050 4150 6200
+Wire Wire Line
+	4150 6050 4550 6050
+Wire Wire Line
+	4550 6050 4550 6150
+Wire Wire Line
+	4550 5400 5100 5400
+Wire Wire Line
+	4550 6700 5100 6700
+Wire Wire Line
+	5100 5400 5300 5400
+Wire Wire Line
+	5100 6700 5300 6700
+Wire Wire Line
+	2600 1650 3100 1650
+Wire Wire Line
+	2600 3750 3100 3750
+Wire Wire Line
+	2600 2950 2600 3750
+Wire Wire Line
+	2600 2450 2600 2550
+Wire Wire Line
+	3750 2000 3750 2150
+Wire Wire Line
+	3600 2750 3600 3300
+Wire Wire Line
+	3750 2550 3750 3000
+Wire Wire Line
+	4150 2100 4150 2550
+Wire Wire Line
+	4250 2250 4550 2250
+Wire Wire Line
+	5000 2400 5000 2950
+Wire Wire Line
+	5000 2950 5000 3500
+Wire Wire Line
+	5000 3500 5000 3850
+Wire Wire Line
+	7950 2700 7950 3150
+Wire Wire Line
+	8550 2050 9350 2050
+Wire Wire Line
+	8550 3350 9350 3350
+Wire Wire Line
+	3600 3450 3600 3650
 $EndSCHEMATC

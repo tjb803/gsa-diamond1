@@ -1,22 +1,22 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:gsa
 LIBS:gsa-d1-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "Diamond-1"
-Date "January 2018"
+Date "May 2019"
 Rev "2.0.0"
 Comp "Gemstone Amplification"
-Comment1 "© Tim Baldwin 2016,2018"
+Comment1 "© Tim Baldwin 2016,2019"
 Comment2 "GSA-D1-S200"
 Comment3 "Input Selector"
 Comment4 "Stereo Amplifier"
 $EndDescr
 $Comp
-L CAP C202
+L gsa:CAP C202
 U 1 1 5A85E999
 P 3000 4550
 F 0 "C202" H 2850 4650 60  0000 C CNN
@@ -27,7 +27,7 @@ F 3 "" H 3000 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES R202
+L gsa:RES R202
 U 1 1 5A85E99A
 P 3300 4150
 F 0 "R202" V 3400 4150 60  0000 C CNN
@@ -38,7 +38,7 @@ F 3 "" H 3300 4150 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L RES R203
+L gsa:RES R203
 U 1 1 5A85E99B
 P 3950 4550
 F 0 "R203" H 3750 4600 60  0000 C CNN
@@ -49,7 +49,7 @@ F 3 "" H 3950 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP-P C203
+L gsa:CAP-P C203
 U 1 1 5A85E99C
 P 3950 2700
 F 0 "C203" H 3800 2850 60  0000 C CNN
@@ -60,7 +60,7 @@ F 3 "" H 3950 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES R204
+L gsa:RES R204
 U 1 1 5A85E99D
 P 5000 2400
 F 0 "R204" V 4900 2400 60  0000 C CNN
@@ -71,7 +71,7 @@ F 3 "" H 5000 2400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CAP C201
+L gsa:CAP C201
 U 1 1 5A85E99E
 P 2600 3650
 F 0 "C201" H 2450 3750 60  0000 C CNN
@@ -82,7 +82,7 @@ F 3 "" H 2600 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D201
+L gsa:LED D201
 U 1 1 5A85E99F
 P 5850 4050
 F 0 "D201" V 5750 4200 60  0000 C CNN
@@ -104,7 +104,7 @@ Text Label 9050 3700 0    60   ~ 0
 D
 NoConn ~ 4600 3900
 $Comp
-L CONN-2 J201
+L gsa:CONN-2 J201
 U 1 1 5A85E9A0
 P 1950 2900
 F 0 "J201" H 1950 2700 60  0000 C CNN
@@ -115,7 +115,7 @@ F 3 "" H 1950 2900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L HOLE H202
+L gsa:HOLE H202
 U 1 1 5A85E9A1
 P 3650 5250
 F 0 "H202" H 3650 5400 60  0001 C CNN
@@ -126,7 +126,7 @@ F 3 "" H 3650 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HOLE H201
+L gsa:HOLE H201
 U 1 1 5A85E9A2
 P 3250 5250
 F 0 "H201" H 3250 5400 60  0001 C CNN
@@ -137,7 +137,7 @@ F 3 "" H 3250 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4017 U202
+L gsa:4017 U202
 U 1 1 5A85E9A3
 P 4350 3650
 F 0 "U202" H 4350 4000 60  0000 C CNN
@@ -153,7 +153,7 @@ NoConn ~ 4600 3550
 NoConn ~ 4600 3600
 NoConn ~ 4600 3650
 $Comp
-L CONN-4 J202
+L gsa:CONN-4 J202
 U 1 1 5A85E9A4
 P 9350 3600
 F 0 "J202" H 9350 3850 60  0000 C CNN
@@ -164,7 +164,7 @@ F 3 "" H 9350 3600 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L NMOS-E Q201
+L gsa:NMOS-E Q201
 U 1 1 5A85E9A5
 P 5750 4550
 F 0 "Q201" H 6000 4700 60  0000 C CNN
@@ -175,7 +175,7 @@ F 3 "" H 5750 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D202
+L gsa:LED D202
 U 1 1 5A85E9A6
 P 6550 4050
 F 0 "D202" V 6450 4200 60  0000 C CNN
@@ -186,7 +186,7 @@ F 3 "" H 6550 4050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L NMOS-E Q202
+L gsa:NMOS-E Q202
 U 1 1 5A85E9A7
 P 6450 4550
 F 0 "Q202" H 6700 4700 60  0000 C CNN
@@ -197,7 +197,7 @@ F 3 "" H 6450 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D203
+L gsa:LED D203
 U 1 1 5A85E9A8
 P 7250 4050
 F 0 "D203" V 7150 4200 60  0000 C CNN
@@ -208,7 +208,7 @@ F 3 "" H 7250 4050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L NMOS-E Q203
+L gsa:NMOS-E Q203
 U 1 1 5A85E9A9
 P 7150 4550
 F 0 "Q203" H 7400 4700 60  0000 C CNN
@@ -219,7 +219,7 @@ F 3 "" H 7150 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D204
+L gsa:LED D204
 U 1 1 5A85E9AA
 P 7950 4050
 F 0 "D204" V 7850 4200 60  0000 C CNN
@@ -230,7 +230,7 @@ F 3 "" H 7950 4050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L NMOS-E Q204
+L gsa:NMOS-E Q204
 U 1 1 5A85E9AB
 P 7850 4550
 F 0 "Q204" H 8100 4700 60  0000 C CNN
@@ -241,7 +241,7 @@ F 3 "" H 7850 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D205
+L gsa:LED D205
 U 1 1 5A85E9AC
 P 8650 4050
 F 0 "D205" V 8550 4200 60  0000 C CNN
@@ -252,7 +252,7 @@ F 3 "" H 8650 4050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L NMOS-E Q205
+L gsa:NMOS-E Q205
 U 1 1 5A85E9AD
 P 8550 4550
 F 0 "Q205" H 8800 4700 60  0000 C CNN
@@ -263,7 +263,7 @@ F 3 "" H 8550 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES R201
+L gsa:RES R201
 U 1 1 5A85E9AE
 P 3000 2750
 F 0 "R201" H 2800 2800 60  0000 C CNN
@@ -274,7 +274,7 @@ F 3 "" H 3000 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SP-PUSH SW201
+L gsa:SP-PUSH SW201
 U 1 1 5A85E9AF
 P 5550 3100
 F 0 "SW201" V 5550 3000 60  0000 C CNN
@@ -285,7 +285,7 @@ F 3 "" H 5550 3100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SP-PUSH SW202
+L gsa:SP-PUSH SW202
 U 1 1 5A85E9B0
 P 6250 3100
 F 0 "SW202" V 6250 3000 60  0000 C CNN
@@ -296,7 +296,7 @@ F 3 "" H 6250 3100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SP-PUSH SW203
+L gsa:SP-PUSH SW203
 U 1 1 5A85E9B1
 P 6950 3100
 F 0 "SW203" V 6950 3000 60  0000 C CNN
@@ -307,7 +307,7 @@ F 3 "" H 6950 3100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SP-PUSH SW204
+L gsa:SP-PUSH SW204
 U 1 1 5A85E9B2
 P 7650 3100
 F 0 "SW204" V 7650 3000 60  0000 C CNN
@@ -318,7 +318,7 @@ F 3 "" H 7650 3100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SP-PUSH SW205
+L gsa:SP-PUSH SW205
 U 1 1 5A85E9B3
 P 8350 3100
 F 0 "SW205" V 8350 3000 60  0000 C CNN
@@ -329,7 +329,7 @@ F 3 "" H 8350 3100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4093 U201
+L gsa:4093 U201
 U 3 1 5A85E9B4
 P 3300 3400
 F 0 "U201" H 3400 3550 60  0000 C CNN
@@ -340,7 +340,7 @@ F 3 "" H 3275 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4093 U201
+L gsa:4093 U201
 U 1 1 5A85E9B5
 P 3300 3800
 F 0 "U201" H 3400 3950 60  0000 C CNN
@@ -351,7 +351,7 @@ F 3 "" H 3275 3800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4093 U201
+L gsa:4093 U201
 U 2 1 5A85E9B6
 P 4550 4250
 F 0 "U201" H 4650 4400 60  0000 C CNN
@@ -362,7 +362,7 @@ F 3 "" H 4525 4250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4093 U201
+L gsa:4093 U201
 U 4 1 5A85E9B7
 P 5100 4250
 F 0 "U201" H 5200 4400 60  0000 C CNN
@@ -373,7 +373,7 @@ F 3 "" H 5075 4250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN-2 J203
+L gsa:CONN-2 J203
 U 1 1 5A85E9B8
 P 9350 4500
 F 0 "J203" H 9350 4750 60  0000 C CNN
@@ -398,7 +398,7 @@ V+
 Text Label 2300 4900 0    60   ~ 0
 V-
 $Comp
-L PWR_FLAG #FLG03
+L gsa:PWR_FLAG #FLG03
 U 1 1 5A85E9B9
 P 2600 5050
 F 0 "#FLG03" H 2600 5145 50  0001 C CNN
@@ -456,7 +456,7 @@ Wire Wire Line
 	6950 2650 6950 2850
 Connection ~ 6950 2650
 Wire Wire Line
-	6950 3350 6950 4650
+	6950 3350 6950 3450
 Wire Wire Line
 	6950 4650 7000 4650
 Wire Wire Line
@@ -467,7 +467,7 @@ Wire Wire Line
 	7650 2650 7650 2850
 Connection ~ 7650 2650
 Wire Wire Line
-	7650 3350 7650 4650
+	7650 3350 7650 3650
 Wire Wire Line
 	7650 4650 7700 4650
 Wire Wire Line
@@ -479,7 +479,7 @@ Connection ~ 7250 4900
 Wire Wire Line
 	8350 2650 8350 2850
 Wire Wire Line
-	8350 3350 8350 4650
+	8350 3350 8350 3700
 Wire Wire Line
 	8350 4650 8400 4650
 Wire Wire Line
@@ -494,22 +494,22 @@ Connection ~ 8350 3750
 Wire Wire Line
 	5850 4250 5850 4350
 Wire Wire Line
-	5200 2400 8650 2400
+	5200 2400 5850 2400
 Wire Wire Line
-	3950 2850 3950 4350
+	3950 2850 3950 3750
 Connection ~ 3950 3750
 Connection ~ 6250 3450
 Wire Wire Line
-	6250 3350 6250 4650
+	6250 3350 6250 3400
 Wire Wire Line
 	4600 3500 6950 3500
 Connection ~ 6950 3500
 Wire Wire Line
-	5550 3350 5550 4650
+	5550 3350 5550 3400
 Wire Wire Line
 	4600 3750 8350 3750
 Wire Wire Line
-	4600 3400 5550 3400
+	4600 3400 4650 3400
 Wire Wire Line
 	7250 4250 7250 4350
 Wire Wire Line
@@ -542,9 +542,9 @@ Wire Wire Line
 	8350 3700 9150 3700
 Connection ~ 8350 3700
 Wire Wire Line
-	2250 4900 8650 4900
+	2250 4900 2600 4900
 Wire Wire Line
-	2600 4900 3950 4900
+	2600 4900 3000 4900
 Wire Wire Line
 	5300 4250 5400 4250
 Connection ~ 5550 3400
@@ -560,16 +560,16 @@ Connection ~ 4650 3400
 Wire Wire Line
 	3950 3750 4100 3750
 Wire Wire Line
-	4350 4200 4350 4300
+	4350 4200 4350 4250
 Connection ~ 4350 4250
 Wire Wire Line
 	5400 4250 5400 5200
 Wire Wire Line
-	4850 2650 8350 2650
+	4850 2650 5550 2650
 Wire Wire Line
-	4900 4200 4900 4300
+	4900 4200 4900 4250
 Wire Wire Line
-	4750 4250 4900 4250
+	4750 4250 4800 4250
 Connection ~ 4900 4250
 Connection ~ 4800 4250
 Wire Wire Line
@@ -582,7 +582,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 3750 3000 3750
 Wire Wire Line
-	3000 3750 3000 4400
+	3000 3750 3000 3850
 Wire Wire Line
 	3000 4700 3000 4900
 Connection ~ 3000 4900
@@ -592,7 +592,7 @@ Connection ~ 3000 3850
 Wire Wire Line
 	3600 4150 3500 4150
 Wire Wire Line
-	3600 3650 3600 4150
+	3600 3650 3600 3800
 Connection ~ 3600 3800
 Wire Wire Line
 	3500 3400 3600 3400
@@ -603,7 +603,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 3450 3100 3450
 Wire Wire Line
-	3000 2950 3000 3450
+	3000 2950 3000 3050
 Wire Wire Line
 	3100 3350 3000 3350
 Connection ~ 3000 3350
@@ -618,9 +618,9 @@ Wire Wire Line
 	4850 3050 4850 2650
 Connection ~ 3000 3050
 Wire Wire Line
-	2250 2400 4800 2400
+	2250 2400 2600 2400
 Wire Wire Line
-	2600 3800 2600 5050
+	2600 3800 2600 4900
 Connection ~ 3250 2400
 Connection ~ 5050 4900
 Wire Wire Line
@@ -640,9 +640,9 @@ Wire Wire Line
 Wire Wire Line
 	5050 4400 5050 4900
 Wire Wire Line
-	2600 2250 2600 3500
+	2600 2250 2600 2400
 $Comp
-L PWR_FLAG #FLG04
+L gsa:PWR_FLAG #FLG04
 U 1 1 5A85E9BA
 P 2600 2250
 F 0 "#FLG04" H 2600 2345 50  0001 C CNN
@@ -654,4 +654,88 @@ F 3 "" H 2600 2250 50  0000 C CNN
 $EndComp
 Text Notes 2950 6100 0    60   ~ 0
 U201: CD4093BE (Quad Schmitt trigger NAND)\nU202: CD4017BE (Decade counter)\nQ20x: 2N7000 or BS170 (Low power switching MOSFET)\nD20x: LEDs (Approx 2V 20mA) \nR204: Adjust for supply voltage and LED current
+Wire Wire Line
+	3950 4900 4200 4900
+Wire Wire Line
+	2600 2400 3000 2400
+Wire Wire Line
+	2600 2400 2600 3500
+Wire Wire Line
+	2600 4900 2600 5050
+Wire Wire Line
+	5550 2650 6250 2650
+Wire Wire Line
+	4200 2400 4800 2400
+Wire Wire Line
+	4200 4900 5050 4900
+Wire Wire Line
+	3950 2400 4200 2400
+Wire Wire Line
+	6250 2650 6950 2650
+Wire Wire Line
+	5850 2400 6550 2400
+Wire Wire Line
+	5850 4900 6550 4900
+Wire Wire Line
+	6950 2650 7650 2650
+Wire Wire Line
+	7650 2650 8350 2650
+Wire Wire Line
+	7250 2400 7950 2400
+Wire Wire Line
+	7250 4900 7950 4900
+Wire Wire Line
+	6550 4900 7250 4900
+Wire Wire Line
+	7950 4900 8650 4900
+Wire Wire Line
+	6550 2400 7250 2400
+Wire Wire Line
+	7950 2400 8650 2400
+Wire Wire Line
+	8350 3750 8350 4650
+Wire Wire Line
+	3950 3750 3950 4350
+Wire Wire Line
+	6250 3450 6250 4650
+Wire Wire Line
+	6950 3500 6950 4650
+Wire Wire Line
+	6250 3400 6250 3450
+Wire Wire Line
+	6950 3450 6950 3500
+Wire Wire Line
+	7650 3700 7650 4650
+Wire Wire Line
+	7650 3650 7650 3700
+Wire Wire Line
+	8350 3700 8350 3750
+Wire Wire Line
+	5550 3400 5550 4650
+Wire Wire Line
+	4650 3400 5550 3400
+Wire Wire Line
+	4350 4250 4350 4300
+Wire Wire Line
+	4900 4250 4900 4300
+Wire Wire Line
+	4800 4250 4900 4250
+Wire Wire Line
+	3000 2400 3250 2400
+Wire Wire Line
+	3000 4900 3950 4900
+Wire Wire Line
+	3000 3850 3000 4150
+Wire Wire Line
+	3600 3800 3600 4150
+Wire Wire Line
+	3000 3350 3000 3450
+Wire Wire Line
+	3000 4150 3000 4400
+Wire Wire Line
+	3000 3050 3000 3350
+Wire Wire Line
+	3250 2400 3950 2400
+Wire Wire Line
+	5050 4900 5850 4900
 $EndSCHEMATC

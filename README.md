@@ -18,7 +18,7 @@ input sources and standby mode.
 ### Project Structure
 
 The project schematics and PCBs are generated with
-[KiCad](http://kicad-pcb.org/) v4.0.x
+[KiCad](http://kicad-pcb.org/) v5.x
 
 This project is built on four separate PCBs, so the layout and 
 structure of the KiCad files needs a little explanation.
@@ -68,4 +68,5 @@ cannot be used for this.
 
 The KiCad schematics and board layouts use only symbols and
 footprints from the [gsa-lib](https://github.com/tjb803/gsa-lib)
-project.  You should install and configure that project first.
+project.  You should install and configure that project first,
+ensuring you have the latest version that supports KiCad v5.
