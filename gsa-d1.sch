@@ -1,80 +1,43 @@
 EESchema Schematic File Version 4
-LIBS:gsa
-LIBS:gsa-d1-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "Diamond-1"
-Date "May 2019"
-Rev "2.0.0"
+Date "May 2020"
+Rev "2.0.1"
 Comp "Gemstone Amplification"
-Comment1 "© Tim Baldwin 2016,2019"
-Comment2 ""
+Comment1 "© Tim Baldwin 2016,2020"
+Comment2 "GSA-D1-201"
 Comment3 ""
 Comment4 "Stereo Amplifier"
 $EndDescr
 Text Notes 2400 1950 0    100  ~ 0
-Chassis mounted components \nnot present of the PCBs
+Chassis mounted components \nnot present on the PCBs
 Wire Notes Line
 	1750 2900 1750 2100
-$Comp
-L gsa:CONN-3 J1
-U 1 1 5A85D3B0
-P 2250 3150
-F 0 "J1" H 2250 2850 60  0000 C CNN
-F 1 "CONN-3" H 2250 2875 60  0001 C CNN
-F 2 "" H 2250 3150 60  0001 C CNN
-F 3 "" H 2250 3150 60  0000 C CNN
-	1    2250 3150
-	-1   0    0    1   
-$EndComp
-Text Notes 2200 3500 0    60   ~ 0
+Text Notes 2250 3450 0    50   ~ 0
 AC
-Text Notes 4600 3750 0    60   ~ 0
+Text Notes 4550 3650 0    50   ~ 0
 ±15V
-$Comp
-L gsa:XFRMR-C TX1
-U 1 1 5A85D3B4
-P 4700 3150
-F 0 "TX1" H 4650 3700 60  0000 C CNN
-F 1 "XFRMR-C" H 4700 2600 60  0001 C CNN
-F 2 "" H 5050 2750 60  0001 C CNN
-F 3 "" H 5050 2750 60  0000 C CNN
-	1    4700 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L gsa:DPST SW1
-U 1 1 5A85D3B8
-P 3700 3150
-F 0 "SW1" H 3550 3150 60  0000 C CNN
-F 1 "DPST" H 3700 2850 60  0001 C CNN
-F 2 "" H 3690 3340 60  0001 C CNN
-F 3 "" H 3690 3340 60  0000 C CNN
-	1    3700 3150
-	1    0    0    -1  
-$EndComp
 $Comp
 L gsa:FUSE F1
 U 1 1 5A85D3B9
 P 3050 2950
-F 0 "F1" H 3050 3050 60  0000 C CNN
-F 1 "1A" H 3050 2850 60  0000 C CNN
-F 2 "" V 3050 2950 60  0001 C CNN
-F 3 "" V 3050 2950 60  0000 C CNN
+F 0 "F1" H 3050 3050 50  0000 C CNN
+F 1 "1A" H 3050 2850 50  0000 C CNN
+F 2 "" V 3050 2950 50  0001 C CNN
+F 3 "" V 3050 2950 50  0001 C CNN
 	1    3050 2950
 	1    0    0    -1  
 $EndComp
-Text Notes 2150 2600 0    60   ~ 0
+Text Notes 2150 2600 0    50   ~ 0
 IEC connector with fuse and switch
 Wire Wire Line
-	4950 3600 5100 3600
+	4950 3500 5200 3500
 Wire Wire Line
-	4950 3150 5100 3150
-Wire Wire Line
-	4950 2700 5100 2700
+	4950 2800 5250 2800
 Wire Wire Line
 	2650 3250 2650 3350
 Wire Wire Line
@@ -106,65 +69,50 @@ Wire Wire Line
 Wire Wire Line
 	2650 2950 2650 3050
 Wire Wire Line
-	4300 3450 4400 3450
+	4300 3450 4450 3450
 Wire Wire Line
 	4300 3350 4300 3450
 Wire Wire Line
 	4300 2850 4300 2950
 Wire Wire Line
-	4400 2850 4300 2850
+	4450 2850 4300 2850
 Wire Notes Line
 	1750 2100 5450 2100
 Wire Notes Line
 	5450 2100 5450 2900
-$Comp
-L gsa:GND #GND01
-U 1 1 5A85D3CC
-P 5100 3150
-F 0 "#GND01" H 5240 3070 60  0001 C CNN
-F 1 "GND" H 5250 2900 60  0000 C CNN
-F 2 "" H 5100 2950 60  0000 C CNN
-F 3 "" H 5100 2950 60  0000 C CNN
-	1    5100 3150
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 1750 4950 1350 900 
 U 5A85D422
 F0 "Input Selector" 60
-F1 "s000/gsa-d1-s000.sch" 60
+F1 "s-inp/gsa-d1-s.sch" 60
 $EndSheet
 $Sheet
 S 5150 4950 1350 900 
 U 5A85D43A
 F0 "Inputs and Pre-Amp" 60
-F1 "c000/gsa-d1-c000.sch" 60
+F1 "c-pre/gsa-d1-c.sch" 60
 $EndSheet
 $Sheet
 S 8550 4950 1350 900 
 U 5A85D452
 F0 "Power Amp" 60
-F1 "p000/gsa-d1-p000.sch" 60
+F1 "p-amp/gsa-d1-p.sch" 60
 $EndSheet
 Text Notes 5400 950  0    100  ~ 20
 Master Sheet
-Text Label 5100 2700 0    60   ~ 0
+Text Label 5100 2800 0    50   ~ 0
 AC1
-Text Label 5100 3600 0    60   ~ 0
+Text Label 5050 3500 0    50   ~ 0
 AC2
-Wire Wire Line
-	6600 2950 6500 2950
-Wire Wire Line
-	6600 3350 6500 3350
-Text Label 6500 2950 2    60   ~ 0
+Text Label 6550 2950 2    50   ~ 0
 AC1
-Text Label 6500 3350 2    60   ~ 0
+Text Label 6550 3350 2    50   ~ 0
 AC2
 $Sheet
 S 6600 2700 1350 900 
 U 5A85D46A
 F0 "Power Supply" 60
-F1 "v000/gsa-d1-v000.sch" 60
+F1 "v-pwr/gsa-d1-v.sch" 60
 F2 "AC1" I L 6600 2950 60 
 F3 "AC2" I L 6600 3350 60 
 $EndSheet
@@ -172,10 +120,10 @@ $Comp
 L gsa:EARTH #GND02
 U 1 1 5A86B538
 P 2500 3750
-F 0 "#GND02" H 2640 3670 60  0001 C CNN
-F 1 "EARTH" H 2500 3400 60  0000 C CNN
-F 2 "" H 2500 3550 60  0000 C CNN
-F 3 "" H 2500 3550 60  0000 C CNN
+F 0 "#GND02" H 2640 3670 50  0001 C CNN
+F 1 "EARTH" H 2500 3400 50  0000 C CNN
+F 2 "" H 2500 3550 50  0001 C CNN
+F 3 "" H 2500 3550 50  0001 C CNN
 	1    2500 3750
 	1    0    0    -1  
 $EndComp
@@ -190,13 +138,13 @@ Power Amplifier
 Text Notes 6800 2450 0    100  ~ 0
 Power Supply
 $Comp
-L gsa:GND #GND?
+L gsa:GND #GND0101
 U 1 1 5A9150C8
 P 2800 3750
-F 0 "#GND?" H 2940 3670 60  0001 C CNN
-F 1 "GND" H 2800 3400 60  0000 C CNN
-F 2 "" H 2800 3550 60  0000 C CNN
-F 3 "" H 2800 3550 60  0000 C CNN
+F 0 "#GND0101" H 2940 3670 50  0001 C CNN
+F 1 "GND" H 2800 3400 50  0000 C CNN
+F 2 "" H 2800 3550 50  0001 C CNN
+F 3 "" H 2800 3550 50  0001 C CNN
 	1    2800 3750
 	1    0    0    -1  
 $EndComp
@@ -207,4 +155,100 @@ Wire Wire Line
 Connection ~ 2500 3500
 Wire Wire Line
 	2500 3500 2500 3750
+$Comp
+L gsa:SW-DPST SW1
+U 1 1 5EB824D8
+P 3700 3150
+F 0 "SW1" H 3700 3541 50  0000 C CNN
+F 1 "SW-DPST" H 3700 3550 50  0001 C CNN
+F 2 "" H 3690 3340 50  0001 C CNN
+F 3 "" H 3690 3340 50  0001 C CNN
+	1    3700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:XFRMR-CTR T1
+U 1 1 5EC0B1E2
+P 4700 3150
+F 0 "T1" H 4700 3600 50  0000 C CNN
+F 1 "XFRMR-CTR" H 4725 2600 50  0001 C CNN
+F 2 "" H 5075 2750 50  0001 C CNN
+F 3 "" H 5075 2750 50  0001 C CNN
+	1    4700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:CONN-3 J1
+U 1 1 5EC10A81
+P 2300 3250
+F 0 "J1" H 2300 3600 50  0000 C CNN
+F 1 "CONN-3" H 2300 2975 50  0001 C CNN
+F 2 "" H 2300 3250 50  0001 C CNN
+F 3 "" H 2300 3250 50  0001 C CNN
+	1    2300 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L gsa:NET #SYM102
+U 1 1 5EF6D9D7
+P 5250 3500
+F 0 "#SYM102" H 5250 3600 50  0001 C CNN
+F 1 "NET" H 5243 3608 50  0001 C CNN
+F 2 "" H 5250 3500 50  0001 C CNN
+F 3 "" H 5250 3500 50  0001 C CNN
+	1    5250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:NET #SYM101
+U 1 1 5EF6DDA5
+P 5300 2800
+F 0 "#SYM101" H 5300 2900 50  0001 C CNN
+F 1 "NET" H 5300 2050 50  0001 C CNN
+F 2 "" H 5300 2800 50  0001 C CNN
+F 3 "" H 5300 2800 50  0001 C CNN
+	1    5300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:NET #SYM103
+U 1 1 5EF7160D
+P 6350 2950
+F 0 "#SYM103" H 6350 3050 50  0001 C CNN
+F 1 "NET" H 6350 2850 50  0001 C CNN
+F 2 "" H 6350 2950 50  0001 C CNN
+F 3 "" H 6350 2950 50  0001 C CNN
+	1    6350 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L gsa:NET #SYM104
+U 1 1 5EF71C7E
+P 6350 3350
+F 0 "#SYM104" H 6350 3450 50  0001 C CNN
+F 1 "NET" H 6350 3250 50  0001 C CNN
+F 2 "" H 6350 3350 50  0001 C CNN
+F 3 "" H 6350 3350 50  0001 C CNN
+	1    6350 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6400 2950 6600 2950
+Wire Wire Line
+	6400 3350 6600 3350
+$Comp
+L gsa:GND #GND01
+U 1 1 5A85D3CC
+P 5000 3750
+F 0 "#GND01" H 5140 3670 50  0001 C CNN
+F 1 "GND" H 5000 3400 50  0000 C CNN
+F 2 "" H 5000 3550 50  0001 C CNN
+F 3 "" H 5000 3550 50  0001 C CNN
+	1    5000 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3750 5000 3150
+Wire Wire Line
+	5000 3150 4950 3150
 $EndSCHEMATC

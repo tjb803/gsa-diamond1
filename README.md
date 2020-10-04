@@ -38,22 +38,22 @@ structure of the KiCad files needs a little explanation.
      An outline PCB that can be used to combine the three main
      project PCBs into single 100x100mm board for production.
 
-* `gsa-diamond1/p000/`  
+* `gsa-diamond1/p-amp/`  
    Files for the _Power Amp_ part of the project. Includes the 
    schematic subsheet (written from the main project schematic) and 
    the netlist and PCB specific to this assembly.
 
-* `gsa-diamond1/c000/`  
+* `gsa-diamond1/c-pre/`  
    Files for the _Pre Amp Controls_ part of the project. Includes the 
    schematic subsheet (written from the main project schematic) and 
    the netlist and PCB specific to this assembly.
 
-* `gsa-diamond1/s000/`  
+* `gsa-diamond1/s-inp/`  
    Files for the _Input Selector_ part of the project. Includes the 
    schematic subsheet (written from the main project schematic) and 
    the netlist and PCB specific to this assembly.
 
-* `gsa-diamond1/v000/`  
+* `gsa-diamond1/v-pwr/`  
    Files for the _Power Supply_ part of the project. Includes the 
    schematic subsheet (written from the main project schematic) and 
    the netlist and PCB specific to this assembly.

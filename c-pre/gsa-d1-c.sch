@@ -1,0 +1,1018 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title "Diamond-1"
+Date "May 2020"
+Rev "2.0.1"
+Comp "Gemstone Amplification"
+Comment1 "© Tim Baldwin 2016,2020"
+Comment2 "GSA-D1-C201"
+Comment3 "Pre-Amp Controls and Input Switching"
+Comment4 "Stereo Amplifier"
+$EndDescr
+$Comp
+L gsa:4066 U301
+U 1 1 5A85ECF9
+P 3250 2200
+F 0 "U301" H 3250 2550 50  0000 C CNN
+F 1 "4066" V 3250 2200 50  0000 C CNN
+F 2 "gsa:DIL14" H 3350 2000 50  0001 C CNN
+F 3 "" H 3350 2000 50  0001 C CNN
+	1    3250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:CAP C301
+U 1 1 5A85ECFA
+P 2600 2700
+AR Path="/5A85ECFA" Ref="C301"  Part="1" 
+AR Path="/5A85D43A/5A85ECFA" Ref="C301"  Part="1" 
+F 0 "C301" H 2750 2800 50  0000 C CNN
+F 1 "100n" H 2750 2600 50  0000 C CNN
+F 2 "gsa:CAP725" H 2600 2700 50  0001 C CNN
+F 3 "" H 2600 2700 50  0001 C CNN
+	1    2600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:4066 U302
+U 1 1 5A85ECFB
+P 3250 3200
+F 0 "U302" H 3250 3550 50  0000 C CNN
+F 1 "4066" V 3250 3200 50  0000 C CNN
+F 2 "gsa:DIL14" H 3350 3000 50  0001 C CNN
+F 3 "" H 3350 3000 50  0001 C CNN
+	1    3250 3200
+	1    0    0    -1  
+$EndComp
+Text Notes 5350 3000 0    50   ~ 0
+B
+Text Notes 5350 2450 0    50   ~ 0
+C
+Text Notes 5350 1900 0    50   ~ 0
+D
+$Comp
+L gsa:POT-DUAL VR302
+U 2 1 5A85ECFC
+P 7950 2050
+AR Path="/5A85ECFC" Ref="VR302"  Part="2" 
+AR Path="/5A85D43A/5A85ECFC" Ref="VR302"  Part="2" 
+F 0 "VR302" H 7700 2100 50  0000 C CNN
+F 1 "100k" H 7750 2000 50  0000 C CNN
+F 2 "gsa:POT-DUAL" H 7950 2050 50  0001 C CNN
+F 3 "" H 7950 2050 50  0001 C CNN
+	2    7950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:POT-DUAL VR302
+U 1 1 5A85ECFD
+P 7950 3350
+AR Path="/5A85ECFD" Ref="VR302"  Part="1" 
+AR Path="/5A85D43A/5A85ECFD" Ref="VR302"  Part="1" 
+F 0 "VR302" H 7700 3400 50  0000 C CNN
+F 1 "100k" H 7750 3300 50  0000 C CNN
+F 2 "gsa:POT-DUAL" H 7950 3350 50  0001 C CNN
+F 3 "" H 7950 3350 50  0001 C CNN
+	1    7950 3350
+	1    0    0    1   
+$EndComp
+Text Notes 7850 3800 0    50   ~ 0
+Volume\n(Lin)
+Text Notes 8450 3550 0    50   ~ 0
+Balance\n(Lin)
+$Comp
+L gsa:CONN-2 J307
+U 1 1 5A85ECFF
+P 5350 6100
+AR Path="/5A85ECFF" Ref="J307"  Part="1" 
+AR Path="/5A85D43A/5A85ECFF" Ref="J307"  Part="1" 
+F 0 "J307" H 5600 6150 50  0000 C CNN
+F 1 "CONN-2" H 5350 5925 50  0001 C CNN
+F 2 "gsa:MOLEX2" H 5350 6100 50  0001 C CNN
+F 3 "" H 5350 6100 50  0001 C CNN
+	1    5350 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:HOLE H301
+U 1 1 5A85ED00
+P 1450 4550
+F 0 "H301" H 1450 4700 50  0001 C CNN
+F 1 "HOLE" H 1450 4400 50  0000 C CNN
+F 2 "gsa:HOLE33" H 1450 4550 50  0001 C CNN
+F 3 "" H 1450 4550 50  0001 C CNN
+	1    1450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:HOLE H302
+U 1 1 5A85ED01
+P 1950 4550
+F 0 "H302" H 1950 4700 50  0001 C CNN
+F 1 "HOLE" H 1950 4400 50  0000 C CNN
+F 2 "gsa:HOLE33" H 1950 4550 50  0001 C CNN
+F 3 "" H 1950 4550 50  0001 C CNN
+	1    1950 4550
+	1    0    0    -1  
+$EndComp
+Text Label 3900 1750 0    50   ~ 0
+L
+Text Label 3900 3650 0    50   ~ 0
+R
+$Comp
+L gsa:CONN-3 J302
+U 1 1 5A85ED02
+P 2100 6150
+AR Path="/5A85ED02" Ref="J302"  Part="1" 
+AR Path="/5A85D43A/5A85ED02" Ref="J302"  Part="1" 
+F 0 "J302" H 2100 6500 50  0000 C CNN
+F 1 "CONN-3" H 2100 5875 50  0001 C CNN
+F 2 "gsa:MOLEX3" H 2100 6150 50  0001 C CNN
+F 3 "" H 2100 6150 50  0001 C CNN
+	1    2100 6150
+	-1   0    0    -1  
+$EndComp
+Text Notes 1350 3150 0    50   ~ 0
+From Input\n Selector
+Text Notes 5250 6450 0    50   ~ 0
+Power To \nInput Selection
+Text Notes 9550 3100 0    50   ~ 0
+To Power\nAmplifier
+Text Notes 5450 1650 0    50   ~ 0
+Inputs
+Text Label 2400 1650 0    50   ~ 0
+V+
+Text Label 2400 3750 0    50   ~ 0
+V-
+$Comp
+L gsa:LM78XX U304
+U 1 1 5A85ED03
+P 3650 5400
+AR Path="/5A85ED03" Ref="U304"  Part="1" 
+AR Path="/5A85D43A/5A85ED03" Ref="U304"  Part="1" 
+F 0 "U304" H 3650 5500 50  0000 C CNN
+F 1 "7805" H 3650 5400 50  0000 C CNN
+F 2 "gsa:REG78" H 3650 5400 50  0001 C CNN
+F 3 "" H 3650 5400 50  0001 C CNN
+	1    3650 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:LM79XX U303
+U 1 1 5A85ED04
+P 3650 6700
+AR Path="/5A85ED04" Ref="U303"  Part="1" 
+AR Path="/5A85D43A/5A85ED04" Ref="U303"  Part="1" 
+F 0 "U303" H 3650 6600 50  0000 C CNN
+F 1 "7905" H 3650 6700 50  0000 C CNN
+F 2 "gsa:REG79" H 3650 6700 50  0001 C CNN
+F 3 "" H 3650 6700 50  0001 C CNN
+	1    3650 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:CAP+ C302
+U 1 1 5A85ED05
+P 3150 5750
+AR Path="/5A85ED05" Ref="C302"  Part="1" 
+AR Path="/5A85D43A/5A85ED05" Ref="C302"  Part="1" 
+F 0 "C302" H 3300 5850 50  0000 C CNN
+F 1 "22u" H 3300 5650 50  0000 C CNN
+F 2 "gsa:ELEC5R" H 3150 5750 50  0001 C CNN
+F 3 "" H 3150 5750 50  0001 C CNN
+	1    3150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:CAP+ C303
+U 1 1 5A85ED06
+P 3150 6350
+AR Path="/5A85ED06" Ref="C303"  Part="1" 
+AR Path="/5A85D43A/5A85ED06" Ref="C303"  Part="1" 
+F 0 "C303" H 3300 6450 50  0000 C CNN
+F 1 "22u" H 3300 6250 50  0000 C CNN
+F 2 "gsa:ELEC5R" H 3150 6350 50  0001 C CNN
+F 3 "" H 3150 6350 50  0001 C CNN
+	1    3150 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:CAP C304
+U 1 1 5A85ED07
+P 4150 5750
+AR Path="/5A85ED07" Ref="C304"  Part="1" 
+AR Path="/5A85D43A/5A85ED07" Ref="C304"  Part="1" 
+F 0 "C304" H 4300 5850 50  0000 C CNN
+F 1 "100n" H 4300 5650 50  0000 C CNN
+F 2 "gsa:CAP725" H 4150 5750 50  0001 C CNN
+F 3 "" H 4150 5750 50  0001 C CNN
+	1    4150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:CAP C305
+U 1 1 5A85ED08
+P 4150 6350
+AR Path="/5A85ED08" Ref="C305"  Part="1" 
+AR Path="/5A85D43A/5A85ED08" Ref="C305"  Part="1" 
+F 0 "C305" H 4300 6450 50  0000 C CNN
+F 1 "100n" H 4300 6250 50  0000 C CNN
+F 2 "gsa:CAP725" H 4150 6350 50  0001 C CNN
+F 3 "" H 4150 6350 50  0001 C CNN
+	1    4150 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:DIODE D301
+U 1 1 5A85ED09
+P 4550 5750
+AR Path="/5A85ED09" Ref="D301"  Part="1" 
+AR Path="/5A85D43A/5A85ED09" Ref="D301"  Part="1" 
+F 0 "D301" V 4650 5600 50  0000 C CNN
+F 1 "1N4001" V 4450 5550 50  0000 C CNN
+F 2 "gsa:RECT10" H 4550 5750 50  0001 C CNN
+F 3 "" H 4550 5750 50  0001 C CNN
+	1    4550 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gsa:DIODE D302
+U 1 1 5A85ED0A
+P 4550 6350
+AR Path="/5A85ED0A" Ref="D302"  Part="1" 
+AR Path="/5A85D43A/5A85ED0A" Ref="D302"  Part="1" 
+F 0 "D302" V 4650 6200 50  0000 C CNN
+F 1 "1N4001" V 4450 6150 50  0000 C CNN
+F 2 "gsa:RECT10" H 4550 6350 50  0001 C CNN
+F 3 "" H 4550 6350 50  0001 C CNN
+	1    4550 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gsa:CONN-4 J301
+U 1 1 5A85ED0B
+P 1550 2850
+AR Path="/5A85ED0B" Ref="J301"  Part="1" 
+AR Path="/5A85D43A/5A85ED0B" Ref="J301"  Part="1" 
+F 0 "J301" H 1550 3300 50  0000 C CNN
+F 1 "CONN-4" H 1550 2500 50  0001 C CNN
+F 2 "gsa:MOLEX4" H 1550 2850 50  0001 C CNN
+F 3 "" H 1550 2850 50  0001 C CNN
+	1    1550 2850
+	-1   0    0    -1  
+$EndComp
+Text Label 5200 6700 0    50   ~ 0
+V-
+Text Label 7350 2700 0    50   ~ 0
+GND-S
+Text Label 5200 5400 0    50   ~ 0
+V+
+Text Label 2500 6050 0    50   ~ 0
+GND-P
+Text Notes 1800 6450 0    50   ~ 0
+From Main\nPower Supply
+Text Label 4750 1750 0    50   ~ 0
+D-L
+Text Label 4750 1950 0    50   ~ 0
+D-R
+Text Label 4750 2300 0    50   ~ 0
+C-L
+Text Label 4750 2500 0    50   ~ 0
+C-R
+Text Label 4750 2850 0    50   ~ 0
+B-L
+Text Label 4750 3050 0    50   ~ 0
+B-R
+Text Label 4750 3400 0    50   ~ 0
+A-L
+Text Label 4750 3600 0    50   ~ 0
+A-R
+Text Label 1750 2850 0    50   ~ 0
+A
+Text Label 1750 2750 0    50   ~ 0
+B
+Text Label 1750 2650 0    50   ~ 0
+C
+Text Label 1750 2550 0    50   ~ 0
+D
+Text Label 9050 2050 0    50   ~ 0
+L-Out
+Text Label 9050 3350 0    50   ~ 0
+R-Out
+Text Label 2500 5400 0    50   ~ 0
+Vin+
+Text Label 2500 6700 0    50   ~ 0
+Vin-
+$Comp
+L gsa:LINK JP303
+U 1 1 5A85ED0C
+P 3950 2550
+AR Path="/5A85ED0C" Ref="JP303"  Part="1" 
+AR Path="/5A85D43A/5A85ED0C" Ref="JP303"  Part="1" 
+F 0 "JP303" V 3850 2550 50  0000 C CNN
+F 1 "LINK" H 3825 2550 50  0001 C CNN
+F 2 "gsa:LINK2" H 3950 2550 50  0001 C CNN
+F 3 "" H 3950 2550 50  0001 C CNN
+	1    3950 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L gsa:LINK JP304
+U 1 1 5A85ED0D
+P 3950 2750
+AR Path="/5A85ED0D" Ref="JP304"  Part="1" 
+AR Path="/5A85D43A/5A85ED0D" Ref="JP304"  Part="1" 
+F 0 "JP304" V 4050 2750 50  0000 C CNN
+F 1 "LINK" H 3825 2750 50  0001 C CNN
+F 2 "gsa:LINK2" H 3950 2750 50  0001 C CNN
+F 3 "" H 3950 2750 50  0001 C CNN
+	1    3950 2750
+	0    1    1    0   
+$EndComp
+Text Notes 2900 4350 0    50   ~ 0
+If not using 4066 switches input D \ncan be connected directly to preamp \ncontrols by adding links JP303 and JP304
+Text Notes 3400 1300 0    80   ~ 16
+Input and Switching
+Text Notes 8000 1300 0    80   ~ 16
+Preamp Controls
+Text Notes 3350 5050 0    80   ~ 16
+Logic Power
+Text Notes 5350 3550 0    50   ~ 0
+A
+Text Notes 5500 1950 0    50   ~ 0
+L\nGND\nR
+Wire Wire Line
+	3500 2000 3750 2000
+Wire Wire Line
+	3750 1750 3750 2000
+Wire Wire Line
+	3750 2150 3500 2150
+Wire Wire Line
+	3750 3000 3500 3000
+Connection ~ 3750 2150
+Wire Wire Line
+	3750 3150 3500 3150
+Connection ~ 3750 3000
+Wire Wire Line
+	3600 2450 3500 2450
+Wire Wire Line
+	3600 2300 3600 2450
+Connection ~ 3600 2450
+Wire Wire Line
+	3600 3300 3500 3300
+Wire Wire Line
+	3600 3450 3500 3450
+Connection ~ 3600 3300
+Wire Wire Line
+	4150 1750 5050 1750
+Wire Wire Line
+	4150 1750 4150 2100
+Wire Wire Line
+	4150 2100 3500 2100
+Wire Wire Line
+	4550 2250 4550 2050
+Wire Wire Line
+	3500 2250 4250 2250
+Wire Wire Line
+	4150 2850 5050 2850
+Wire Wire Line
+	4150 2850 4150 3100
+Wire Wire Line
+	4150 3100 3500 3100
+Wire Wire Line
+	5050 3050 4550 3050
+Wire Wire Line
+	4550 3050 4550 3250
+Wire Wire Line
+	4550 3250 3500 3250
+Wire Wire Line
+	1700 2550 2250 2550
+Wire Wire Line
+	2250 2550 2250 2150
+Wire Wire Line
+	2250 2150 2900 2150
+Wire Wire Line
+	3000 2250 2900 2250
+Wire Wire Line
+	2900 2250 2900 2150
+Connection ~ 2900 2150
+Wire Wire Line
+	1700 2650 2350 2650
+Wire Wire Line
+	2350 2650 2350 2300
+Wire Wire Line
+	2350 2300 2800 2300
+Wire Wire Line
+	2800 2100 2800 2300
+Connection ~ 2800 2300
+Wire Wire Line
+	1700 2750 2350 2750
+Wire Wire Line
+	2350 2750 2350 3150
+Wire Wire Line
+	2350 3150 2900 3150
+Wire Wire Line
+	3000 3250 2900 3250
+Wire Wire Line
+	2900 3250 2900 3150
+Connection ~ 2900 3150
+Wire Wire Line
+	1700 2850 2250 2850
+Wire Wire Line
+	2250 2850 2250 3300
+Wire Wire Line
+	2250 3300 2800 3300
+Wire Wire Line
+	3000 3100 2800 3100
+Wire Wire Line
+	2800 3100 2800 3300
+Connection ~ 2800 3300
+Wire Wire Line
+	2400 5400 3150 5400
+Wire Wire Line
+	2400 6700 3150 6700
+Wire Wire Line
+	5100 5400 5100 6000
+Wire Wire Line
+	5100 6000 5200 6000
+Wire Wire Line
+	5100 6700 5100 6100
+Wire Wire Line
+	5100 6100 5200 6100
+Wire Wire Line
+	2250 5950 2400 5950
+Wire Wire Line
+	2400 5950 2400 5400
+Wire Wire Line
+	2250 6150 2400 6150
+Wire Wire Line
+	2400 6150 2400 6700
+Wire Wire Line
+	2600 1650 2600 2450
+Wire Wire Line
+	2250 6050 3150 6050
+Wire Wire Line
+	3650 5650 3650 6050
+Connection ~ 3650 6050
+Wire Wire Line
+	4000 5400 4150 5400
+Wire Wire Line
+	4000 6700 4150 6700
+Wire Wire Line
+	3150 5600 3150 5400
+Connection ~ 3150 5400
+Wire Wire Line
+	3150 5900 3150 6050
+Connection ~ 3150 6050
+Wire Wire Line
+	3150 6500 3150 6700
+Connection ~ 3150 6700
+Wire Wire Line
+	4150 6700 4150 6500
+Connection ~ 4150 6700
+Wire Wire Line
+	4150 5400 4150 5600
+Connection ~ 4150 5400
+Wire Wire Line
+	4150 5900 4150 6050
+Connection ~ 4150 6050
+Wire Wire Line
+	4550 5850 4550 6050
+Connection ~ 4550 6050
+Wire Wire Line
+	4550 5650 4550 5400
+Connection ~ 4550 5400
+Wire Wire Line
+	4550 6450 4550 6700
+Connection ~ 4550 6700
+Connection ~ 5100 5400
+Connection ~ 5100 6700
+Wire Wire Line
+	2400 1650 2600 1650
+Wire Wire Line
+	3100 3750 3100 3550
+Wire Wire Line
+	2600 2850 2600 2950
+Wire Wire Line
+	2400 3750 2600 3750
+Connection ~ 2600 1650
+Connection ~ 2600 3750
+Wire Wire Line
+	3100 1650 3100 1850
+Wire Wire Line
+	2800 2100 3000 2100
+Wire Wire Line
+	3100 2550 3100 2650
+Wire Wire Line
+	3100 2650 2900 2650
+Wire Wire Line
+	2900 2650 2900 2950
+Wire Wire Line
+	2900 2950 2600 2950
+Connection ~ 2600 2950
+Wire Wire Line
+	3100 2850 3100 2750
+Wire Wire Line
+	3100 2750 3000 2750
+Wire Wire Line
+	3000 2750 3000 2450
+Wire Wire Line
+	3000 2450 2600 2450
+Connection ~ 2600 2450
+Wire Wire Line
+	3500 2950 4650 2950
+Wire Wire Line
+	3500 1950 4650 1950
+Wire Wire Line
+	3750 1750 3950 1750
+Connection ~ 3750 2000
+Wire Wire Line
+	3800 2750 3600 2750
+Connection ~ 3600 2750
+Wire Wire Line
+	3800 2550 3750 2550
+Connection ~ 3750 2550
+Connection ~ 4150 2100
+Wire Wire Line
+	4150 2550 4100 2550
+Wire Wire Line
+	4100 2750 4250 2750
+Wire Wire Line
+	4250 2750 4250 2250
+Connection ~ 4250 2250
+$Comp
+L gsa:CONN-3 J308
+U 1 1 5A85ED0E
+P 9650 2800
+AR Path="/5A85ED0E" Ref="J308"  Part="1" 
+AR Path="/5A85D43A/5A85ED0E" Ref="J308"  Part="1" 
+F 0 "J308" H 9650 3150 50  0000 C CNN
+F 1 "CONN-3" H 9650 2525 50  0001 C CNN
+F 2 "gsa:MOLEX3" H 9650 2800 50  0001 C CNN
+F 3 "" H 9650 2800 50  0001 C CNN
+	1    9650 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2950 4650 3400
+Wire Wire Line
+	4650 3400 5050 3400
+Wire Wire Line
+	3500 3400 4550 3400
+Wire Wire Line
+	4550 3400 4550 3600
+Wire Wire Line
+	4550 3600 5050 3600
+Wire Wire Line
+	4650 1950 4650 2300
+Wire Wire Line
+	4650 2300 5050 2300
+Wire Wire Line
+	3500 2400 4550 2400
+Wire Wire Line
+	4550 2400 4550 2500
+Wire Wire Line
+	4550 2500 5050 2500
+$Comp
+L gsa:CONN-3 J306
+U 1 1 5A85ED0F
+P 5200 1950
+AR Path="/5A85ED0F" Ref="J306"  Part="1" 
+AR Path="/5A85D43A/5A85ED0F" Ref="J306"  Part="1" 
+F 0 "J306" H 5200 2300 50  0000 C CNN
+F 1 "CONN-3" H 5200 1675 50  0001 C CNN
+F 2 "gsa:MOLEX3" H 5200 1950 50  0001 C CNN
+F 3 "" H 5200 1950 50  0001 C CNN
+	1    5200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:CONN-3 J305
+U 1 1 5A85ED10
+P 5200 2500
+AR Path="/5A85ED10" Ref="J305"  Part="1" 
+AR Path="/5A85D43A/5A85ED10" Ref="J305"  Part="1" 
+F 0 "J305" H 5200 2850 50  0000 C CNN
+F 1 "CONN-3" H 5200 2225 50  0001 C CNN
+F 2 "gsa:MOLEX3" H 5200 2500 50  0001 C CNN
+F 3 "" H 5200 2500 50  0001 C CNN
+	1    5200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:CONN-3 J304
+U 1 1 5A85ED11
+P 5200 3050
+AR Path="/5A85ED11" Ref="J304"  Part="1" 
+AR Path="/5A85D43A/5A85ED11" Ref="J304"  Part="1" 
+F 0 "J304" H 5200 3400 50  0000 C CNN
+F 1 "CONN-3" H 5200 2775 50  0001 C CNN
+F 2 "gsa:MOLEX3" H 5200 3050 50  0001 C CNN
+F 3 "" H 5200 3050 50  0001 C CNN
+	1    5200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:CONN-3 J303
+U 1 1 5A85ED12
+P 5200 3600
+AR Path="/5A85ED12" Ref="J303"  Part="1" 
+AR Path="/5A85D43A/5A85ED12" Ref="J303"  Part="1" 
+F 0 "J303" H 5200 3950 50  0000 C CNN
+F 1 "CONN-3" H 5200 3325 50  0001 C CNN
+F 2 "gsa:MOLEX3" H 5200 3600 50  0001 C CNN
+F 3 "" H 5200 3600 50  0001 C CNN
+	1    5200 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1850 5000 1850
+Wire Wire Line
+	5000 1850 5000 2400
+Wire Wire Line
+	5000 2400 5050 2400
+Wire Wire Line
+	5000 2950 5050 2950
+Connection ~ 5000 2400
+Wire Wire Line
+	5000 3500 5050 3500
+Connection ~ 5000 2950
+Wire Wire Line
+	5000 3850 5400 3850
+Connection ~ 5000 3500
+Text Label 5400 3850 2    50   ~ 0
+GND-S
+Text Notes 5250 5850 0    50   ~ 0
+Output should be \n10V to 18V
+Text Notes 3300 7100 0    50   ~ 0
+U304: 7805 to 7809\nU303: 7905 to 7909
+Text Label 7350 3600 0    50   ~ 0
+R
+Text Label 7350 1800 0    50   ~ 0
+L
+Wire Wire Line
+	7350 1800 7950 1800
+Text Notes 2900 4000 0    50   ~ 0
+U301, U302: CD4066BE (Quad Bilateral Switch)
+Text Notes 7650 4350 0    50   ~ 0
+If Balance is omitted R301 and R302 are\nrequired, should be 10k to 15k and should\nbe connected to GND-S via JP301 and JP302.
+$Comp
+L gsa:RES R301
+U 1 1 5A8B4D38
+P 8550 2300
+F 0 "R301" H 8350 2250 50  0000 C CNN
+F 1 "4.7k" H 8400 2350 50  0000 C CNN
+F 2 "gsa:RES10" H 8550 2300 50  0001 C CNN
+F 3 "" H 8550 2300 50  0001 C CNN
+	1    8550 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L gsa:RES R302
+U 1 1 5A8B4FE5
+P 8550 3100
+F 0 "R302" H 8350 3050 50  0000 C CNN
+F 1 "4.7k" H 8400 3150 50  0000 C CNN
+F 2 "gsa:RES10" H 8550 3100 50  0001 C CNN
+F 3 "" H 8550 3100 50  0001 C CNN
+	1    8550 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7950 2250 7950 2700
+Wire Wire Line
+	7950 1800 7950 1850
+Wire Wire Line
+	7950 3550 7950 3600
+Wire Wire Line
+	7950 3600 7350 3600
+Wire Wire Line
+	7950 2700 7350 2700
+Connection ~ 7950 2700
+Wire Wire Line
+	8150 3350 8550 3350
+Wire Wire Line
+	9350 3350 9350 2800
+Wire Wire Line
+	9350 2800 9500 2800
+Wire Wire Line
+	9350 2600 9500 2600
+Wire Wire Line
+	9350 2050 9350 2600
+Wire Wire Line
+	8150 2050 8550 2050
+Wire Wire Line
+	8550 2100 8550 2050
+Connection ~ 8550 2050
+Wire Wire Line
+	8550 3300 8550 3350
+Connection ~ 8550 3350
+Text Label 9250 2700 0    50   ~ 0
+GND-S
+Wire Wire Line
+	3600 3650 3950 3650
+Wire Wire Line
+	3500 2300 3600 2300
+Connection ~ 3600 3450
+Wire Wire Line
+	4550 2050 4750 2050
+Wire Wire Line
+	4750 2050 4750 1950
+Wire Wire Line
+	4750 1950 5050 1950
+Wire Wire Line
+	3750 2150 3750 2550
+Wire Wire Line
+	3750 3000 3750 3150
+Wire Wire Line
+	3600 2450 3600 2750
+Wire Wire Line
+	3600 3300 3600 3450
+Wire Wire Line
+	2900 2150 3000 2150
+Wire Wire Line
+	2800 2300 3000 2300
+Wire Wire Line
+	2900 3150 3000 3150
+Wire Wire Line
+	2800 3300 3000 3300
+Wire Wire Line
+	3650 6050 4150 6050
+Wire Wire Line
+	3650 6050 3650 6450
+Wire Wire Line
+	3150 5400 3300 5400
+Wire Wire Line
+	3150 6050 3650 6050
+Wire Wire Line
+	3150 6050 3150 6200
+Wire Wire Line
+	3150 6700 3300 6700
+Wire Wire Line
+	4150 6700 4550 6700
+Wire Wire Line
+	4150 5400 4550 5400
+Wire Wire Line
+	4150 6050 4150 6200
+Wire Wire Line
+	4150 6050 4550 6050
+Wire Wire Line
+	4550 6050 4550 6250
+Wire Wire Line
+	4550 5400 5100 5400
+Wire Wire Line
+	4550 6700 5100 6700
+Wire Wire Line
+	5100 5400 5300 5400
+Wire Wire Line
+	5100 6700 5300 6700
+Wire Wire Line
+	2600 1650 3100 1650
+Wire Wire Line
+	2600 3750 3100 3750
+Wire Wire Line
+	2600 2950 2600 3750
+Wire Wire Line
+	2600 2450 2600 2550
+Wire Wire Line
+	3750 2000 3750 2150
+Wire Wire Line
+	3600 2750 3600 3300
+Wire Wire Line
+	3750 2550 3750 3000
+Wire Wire Line
+	4150 2100 4150 2550
+Wire Wire Line
+	4250 2250 4550 2250
+Wire Wire Line
+	5000 2400 5000 2950
+Wire Wire Line
+	5000 2950 5000 3500
+Wire Wire Line
+	5000 3500 5000 3850
+Wire Wire Line
+	7950 2700 7950 3150
+Wire Wire Line
+	8550 2050 9350 2050
+Wire Wire Line
+	8550 3350 9350 3350
+Wire Wire Line
+	3600 3450 3600 3650
+$Comp
+L gsa:PAD JP301
+U 1 1 5EBA01AE
+P 8800 2600
+F 0 "JP301" V 8850 2600 50  0000 R CNN
+F 1 "PAD" H 8800 2500 50  0001 C CNN
+F 2 "gsa:PAD07" H 8800 2600 50  0001 C CNN
+F 3 "" H 8800 2600 50  0001 C CNN
+	1    8800 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gsa:PAD JP302
+U 1 1 5EBA128C
+P 8800 2800
+F 0 "JP302" V 8850 2800 50  0000 L CNN
+F 1 "PAD" H 8800 2700 50  0001 C CNN
+F 2 "gsa:PAD07" H 8800 2800 50  0001 C CNN
+F 3 "" H 8800 2800 50  0001 C CNN
+	1    8800 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 2700 8850 2700
+Wire Wire Line
+	2350 5400 2400 5400
+Connection ~ 2400 5400
+Wire Wire Line
+	2350 6700 2400 6700
+Connection ~ 2400 6700
+$Comp
+L gsa:PWR #FLG0103
+U 1 1 5ED25D0A
+P 2350 5400
+F 0 "#FLG0103" H 2550 5450 50  0001 C CNN
+F 1 "PWR" H 2350 5631 50  0001 C CNN
+F 2 "" H 2350 5400 50  0001 C CNN
+F 3 "" H 2350 5400 50  0001 C CNN
+	1    2350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:PWR #FLG0104
+U 1 1 5ED260F3
+P 2350 6700
+F 0 "#FLG0104" H 2550 6750 50  0001 C CNN
+F 1 "PWR" H 2350 6931 50  0001 C CNN
+F 2 "" H 2350 6700 50  0001 C CNN
+F 3 "" H 2350 6700 50  0001 C CNN
+	1    2350 6700
+	1    0    0    1   
+$EndComp
+$Comp
+L gsa:NET #SYM301
+U 1 1 5EF83AB0
+P 2350 1650
+F 0 "#SYM301" H 2350 1750 50  0001 C CNN
+F 1 "NET" H 2350 1550 50  0001 C CNN
+F 2 "" H 2350 1650 50  0001 C CNN
+F 3 "" H 2350 1650 50  0001 C CNN
+	1    2350 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L gsa:NET #SYM302
+U 1 1 5EF85659
+P 2350 3750
+F 0 "#SYM302" H 2350 3850 50  0001 C CNN
+F 1 "NET" H 2350 3650 50  0001 C CNN
+F 2 "" H 2350 3750 50  0001 C CNN
+F 3 "" H 2350 3750 50  0001 C CNN
+	1    2350 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L gsa:NET #SYM303
+U 1 1 5EF87D7B
+P 4000 1750
+F 0 "#SYM303" H 4000 1850 50  0001 C CNN
+F 1 "NET" H 4000 1650 50  0001 C CNN
+F 2 "" H 4000 1750 50  0001 C CNN
+F 3 "" H 4000 1750 50  0001 C CNN
+	1    4000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:NET #SYM304
+U 1 1 5EF8826B
+P 4000 3650
+F 0 "#SYM304" H 4000 3750 50  0001 C CNN
+F 1 "NET" H 4000 3550 50  0001 C CNN
+F 2 "" H 4000 3650 50  0001 C CNN
+F 3 "" H 4000 3650 50  0001 C CNN
+	1    4000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:NET #SYM307
+U 1 1 5EF8854C
+P 5450 3850
+F 0 "#SYM307" H 5450 3950 50  0001 C CNN
+F 1 "NET" H 5450 3750 50  0001 C CNN
+F 2 "" H 5450 3850 50  0001 C CNN
+F 3 "" H 5450 3850 50  0001 C CNN
+	1    5450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:NET #SYM305
+U 1 1 5EF8B079
+P 5350 5400
+F 0 "#SYM305" H 5350 5500 50  0001 C CNN
+F 1 "NET" H 5350 5300 50  0001 C CNN
+F 2 "" H 5350 5400 50  0001 C CNN
+F 3 "" H 5350 5400 50  0001 C CNN
+	1    5350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:NET #SYM306
+U 1 1 5EF8B9CB
+P 5350 6700
+F 0 "#SYM306" H 5350 6800 50  0001 C CNN
+F 1 "NET" H 5350 6600 50  0001 C CNN
+F 2 "" H 5350 6700 50  0001 C CNN
+F 3 "" H 5350 6700 50  0001 C CNN
+	1    5350 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L gsa:NET #SYM308
+U 1 1 5EF8C9B3
+P 7300 1800
+F 0 "#SYM308" H 7300 1900 50  0001 C CNN
+F 1 "NET" H 7300 1700 50  0001 C CNN
+F 2 "" H 7300 1800 50  0001 C CNN
+F 3 "" H 7300 1800 50  0001 C CNN
+	1    7300 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L gsa:NET #SYM309
+U 1 1 5EF8CCE7
+P 7300 2700
+F 0 "#SYM309" H 7300 2800 50  0001 C CNN
+F 1 "NET" H 7300 2600 50  0001 C CNN
+F 2 "" H 7300 2700 50  0001 C CNN
+F 3 "" H 7300 2700 50  0001 C CNN
+	1    7300 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L gsa:NET #SYM310
+U 1 1 5EF8D086
+P 7300 3600
+F 0 "#SYM310" H 7300 3700 50  0001 C CNN
+F 1 "NET" H 7300 3500 50  0001 C CNN
+F 2 "" H 7300 3600 50  0001 C CNN
+F 3 "" H 7300 3600 50  0001 C CNN
+	1    7300 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L gsa:NET #SYM311
+U 1 1 5EF93434
+P 9200 2800
+F 0 "#SYM311" H 9200 2900 50  0001 C CNN
+F 1 "NET" H 9200 2700 50  0001 C CNN
+F 2 "" H 9200 2800 50  0001 C CNN
+F 3 "" H 9200 2800 50  0001 C CNN
+	1    9200 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9200 2750 9200 2700
+Connection ~ 9200 2700
+Wire Wire Line
+	9200 2700 9500 2700
+Text Notes 1800 6200 0    60   ~ 0
+ V+\nGND \n V- 
+Text Notes 5500 2500 0    50   ~ 0
+L\nGND\nR
+Text Notes 5500 3100 0    50   ~ 0
+L\nGND\nR
+Text Notes 5500 3650 0    50   ~ 0
+L\nGND\nR
+Text Notes 9800 2800 0    50   ~ 0
+L\nGND\nR
+Wire Wire Line
+	8800 2650 8850 2700
+Connection ~ 8850 2700
+Wire Wire Line
+	8850 2700 9200 2700
+Wire Wire Line
+	8800 2750 8750 2700
+$Comp
+L gsa:POT VR301
+U 1 1 5A85ECFE
+P 8550 2700
+F 0 "VR301" H 8350 2750 50  0000 C CNN
+F 1 "22k" H 8350 2650 50  0000 C CNN
+F 2 "gsa:POT-OMEG" H 8550 2700 50  0001 C CNN
+F 3 "" H 8550 2700 50  0001 C CNN
+	1    8550 2700
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7950 2050 8100 2200
+Wire Notes Line
+	8100 2200 8100 3200
+Wire Notes Line
+	8100 3200 7950 3350
+Connection ~ 8750 2700
+$EndSCHEMATC
